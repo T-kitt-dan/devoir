@@ -1,13 +1,10 @@
-# ETE435 — Géoinformatique · Devoir 1
+# ETE435 : Géoinformatique · Devoir 1
 
 **Ingénierie des données géospatiales, fiabilité des données, calculs distanciels et analyse de proximité**
 
 [![Ouvrir dans Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/T-kitt-dan/devoir/master?filepath=devoir1_ETE435.ipynb)
 
 > Cliquez sur le badge **Binder** ci-dessus pour exécuter le notebook directement dans votre navigateur, **sans rien installer**.
-
----
-
 ## Description
 
 Ce projet traite un jeu de données réel d'aéroports canadiens (source : OurAirports). Il couvre :
@@ -16,8 +13,6 @@ Ce projet traite un jeu de données réel d'aéroports canadiens (source : OurAi
 - **Formule de Haversine** : calcul de distances géodésiques entre aéroports
 - **SIG avec GeoPandas** : création d'un GeoDataFrame et export en GeoJSON (EPSG:4326)
 - **Analyse de proximité** : identification des grands aéroports canadiens et leurs distances à Montréal (CYUL)
-
----
 
 ## Contenu du dépôt
 
@@ -31,7 +26,7 @@ Ce projet traite un jeu de données réel d'aéroports canadiens (source : OurAi
 
 ---
 
-## Option 1 — Exécution en ligne (recommandée, aucune installation)
+## Option 1 : Exécution en ligne (recommandée, aucune installation)
 
 Cliquez sur le badge Binder en haut de cette page, ou utilisez ce lien direct :
 
@@ -39,9 +34,7 @@ Cliquez sur le badge Binder en haut de cette page, ou utilisez ce lien direct :
 
 Binder charge automatiquement le dépôt, installe les dépendances et ouvre le notebook dans un environnement Jupyter. Comptez environ 1 à 3 minutes pour le démarrage.
 
----
-
-## Option 2 — Exécution locale
+## Option 2 : Exécution locale
 
 ### Prérequis
 
@@ -99,9 +92,7 @@ Le notebook lira automatiquement `ETE_435_Donnees_Devoir_1_H26 (1).csv` (fourni 
 
 - `airports_clean.csv` — données nettoyées
 - `large_airports_canada.geojson` — fichier GeoJSON des grands aéroports
-
----
-
+  
 ## Résultats obtenus
 
 - **Données initiales** : 1 242 lignes brutes
@@ -111,9 +102,7 @@ Le notebook lira automatiquement `ETE_435_Donnees_Devoir_1_H26 (1).csv` (fourni 
 - **Grands aéroports** : 24 aéroports de type `large_airport` au Canada
 - **Plus éloigné de CYUL** : CYXY (Whitehorse, YT) à **4 242,43 km**
 
----
-
 ## Auteurs
 
-Groupe Érudit — ETE435 Géoinformatique, Été 2026  
+Groupe Érudit : ETE435 Géoinformatique, Été 2026  
 Université du Québec
